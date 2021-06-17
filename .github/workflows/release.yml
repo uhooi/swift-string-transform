@@ -14,6 +14,8 @@ jobs:
       - name: Validates the Pod
         run: bundle exec pod lib lint --allow-warnings
       - name: Deploy to CocoaPods
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
         run: bundle exec pod trunk push --allow-warnings
 
   info:
