@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'StringTransform'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Transform strings easily in Swift.'
   s.description      = <<-DESC
 StringTransform is a library for transform Swift strings easily.

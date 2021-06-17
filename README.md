@@ -27,7 +27,7 @@ You can add this package to `Package.swift`, include it in your target dependenc
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/uhooi/swift-string-transform", .upToNextMajor(from: "0.2.0")),
+        .package(url: "https://github.com/uhooi/swift-string-transform", .upToNextMajor(from: "0.3.0")),
     ],
     targets: [
         .target(
