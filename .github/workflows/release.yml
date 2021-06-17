@@ -1,0 +1,16 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy-cocoapods:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validates the Pod
+        run: pod lib lint --allow-warnings
+      - name: Deploy to CocoaPods
+        run: pod trunk push --allow-warnings
+

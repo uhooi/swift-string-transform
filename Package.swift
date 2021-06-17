@@ -5,6 +5,7 @@ import PackageDescription
 let package = Package(
     name: "StringTransform",
     platforms: [
+        .iOS(.v9),
         .macOS(.v10_11),
     ],
     products: [
