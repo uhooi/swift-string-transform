@@ -9,8 +9,17 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install bundled Gems
+        run: bundle install --without=documentation --jobs 4 --retry 3
       - name: Validates the Pod
-        run: pod lib lint --allow-warnings
+        run: bundle exec pod lib lint --allow-warnings
       - name: Deploy to CocoaPods
-        run: pod trunk push --allow-warnings
+        run: bundle exec pod trunk push --allow-warnings
 
+  info:
+    runs-on: macOS-latest
+    steps:
+      - name: Show Ruby version
+        run: ruby --version
+      - name: Show Bundler version
+        run: bundle version

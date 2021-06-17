@@ -4,3 +4,8 @@
 /*.xcodeproj
 .swiftpm
 .*.sw?
+
+# Ruby
+.ruby-version
+vendor
+
