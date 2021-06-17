@@ -17,10 +17,37 @@ Transforming Swift strings library for easily.
 
 ## Installation
 
-### Swift Package Manager
+### Swift Package Manager (Recommended)
+
+#### Package
+
+You can add this package to `Package.swift`, include it in your target dependencies.
+
+```swift
+let package = Package(
+    dependencies: [
+        .package(url: "https://github.com/uhooi/swift-string-transform", .upToNextMajor(from: "0.2.0")),
+    ],
+    targets: [
+        .target(
+            name: "<your-target-name>",
+            dependencies: ["StringTransform"]),
+    ]
+)
+```
+
+#### Xcode
 
 You can add this package on Xcode.
 See [documentation](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app).
+
+### CocoaPods
+
+TBD
+
+### Carthage
+
+TBD
 
 ## How to use
 
