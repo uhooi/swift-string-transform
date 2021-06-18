@@ -11,8 +11,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install bundled Gems
         run: bundle install --without=documentation --jobs 4 --retry 3
-      - name: Validates the Pod
-        run: bundle exec pod lib lint --allow-warnings
       - name: Deploy to CocoaPods
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
