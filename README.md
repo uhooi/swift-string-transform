@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/uhooi/swift-string-transform)](https://github.com/uhooi/swift-string-transform/blob/main/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/the_uhooi?style=social)](https://twitter.com/the_uhooi)
 
-Transforming Swift strings library for easily.
+Transform strings easily in Swift.
 
 ## Table of Contents
 
