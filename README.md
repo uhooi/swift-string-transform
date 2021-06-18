@@ -47,7 +47,7 @@ See [documentation](https://developer.apple.com/documentation/swift_packages/add
 This library is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'StringTransform'
+pod 'StringTransform', '~> 0.3.0'
 ```
 
 ### Carthage
