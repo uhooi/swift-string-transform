@@ -45,7 +45,7 @@ See [documentation](https://developer.apple.com/documentation/swift_packages/add
 
 ### CocoaPods
 
-This library is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+This library is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your `Podfile`:
 
 ```ruby
 pod 'StringTransform', '~> 0.4.0'
@@ -54,7 +54,7 @@ pod 'StringTransform', '~> 0.4.0'
 ### Carthage
 
 
-This library is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your Cartfile:
+This library is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your `Cartfile`:
 
 ```
 github "uhooi/swift-string-transform" ~> 0.4.0
