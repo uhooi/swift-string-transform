@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/uhooi/swift-string-transform'
   spec.author           = { 'uhooi' => 'the_uhooi@yahoo.co.jp' }
   spec.social_media_url = 'https://twitter.com/the_uhooi'
-  spec.source           = { :git => 'https://github.com/uhooi/swift-string-transform.git', :tag => s.version.to_s }
+  spec.source           = { :git => 'https://github.com/uhooi/swift-string-transform.git', :tag => spec.version.to_s }
   spec.source_files     = 'Sources/**/*.swift'
   spec.swift_versions   = ['5.1', '5.2', '5.3', '5.4']
   spec.framework        = 'Foundation'
