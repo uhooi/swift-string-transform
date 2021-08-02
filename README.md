@@ -53,7 +53,6 @@ pod 'StringTransform', '~> 0.4.0'
 
 ### Carthage
 
-
 This library is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your `Cartfile`:
 
 ```
