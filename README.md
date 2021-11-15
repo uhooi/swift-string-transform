@@ -76,3 +76,7 @@ I would be happy if you contribute :)
 
 - [New issue](https://github.com/uhooi/swift-string-transform/issues/new)
 - [New pull request](https://github.com/uhooi/swift-string-transform/compare)
+
+## Stats
+
+[![Stats](https://repobeats.axiom.co/api/embed/3b9229c64d59197051a610e702ffb2cc822db648.svg "Repobeats analytics image")](https://github.com/uhooi/swift-string-transform)
