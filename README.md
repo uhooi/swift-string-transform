@@ -16,6 +16,7 @@ Transform strings easily in Swift.
 - [Installation](#installation)
 - [How to use](#how-to-use)
 - [Contribution](#contribution)
+- [Stats](#stats)
 
 ## Installation
 
